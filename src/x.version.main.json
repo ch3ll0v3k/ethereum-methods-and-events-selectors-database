@@ -1,0 +1,13 @@
+{
+  "user": {
+    "user": "",
+    "username": "",
+    "email": ""
+  },
+  "release": {
+    "branch": "main",
+    "commit": "n/a",
+    "version": "0.0.1",
+    "date": "2025-10-29T13:36:39.040Z"
+  }
+}
