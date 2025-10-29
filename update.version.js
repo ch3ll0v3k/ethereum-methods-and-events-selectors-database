@@ -38,7 +38,7 @@ const shell = (cmd) => {
 
 
 for (const branch of branches) {
-  const path = `${__dirname}/src/x.version.${branch}.json`
+  const path = `${__dirname}/src/versions/x.version.${branch}.json`
   try {
 
     const commit = shell(`git rev-parse --short HEAD`);

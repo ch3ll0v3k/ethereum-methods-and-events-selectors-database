@@ -5,9 +5,9 @@
     "email": ""
   },
   "release": {
-    "branch": "release",
-    "commit": "n/a",
+    "branch": "stage",
+    "commit": "213b756",
     "version": "0.0.1",
-    "date": "2025-10-29T13:36:39.036Z"
+    "date": "2025-10-29T13:40:58.188Z"
   }
 }

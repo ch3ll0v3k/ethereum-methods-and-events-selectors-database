@@ -20,7 +20,7 @@
     "clean": "rm -rf ./dist/*",
     "_pre-build_step_main": "node ./update.version.js",
     "_pre-build_step_0": "yarn _pre-build_step_main && yarn clean",
-    "_pre-build_step_1": "cross-env NODE_ENV=production tsc && tsc-alias",
+    "_pre-build_step_1": "npx cross-env NODE_ENV=production tsc && tsc-alias",
     "_pre-build_step_2": "cp ./package.json ./dist",
     "build": "yarn _pre-build_step_0 && yarn _pre-build_step_1 && yarn _pre-build_step_2 && node ./setup.native.addons.js"
   },
